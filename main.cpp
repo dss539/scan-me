@@ -2,6 +2,8 @@
 
 int main()
 {
+  auto result = new int();
   std::cout << "success\n";
-  return 0;
+  delete result;
+  return *result;
 }
